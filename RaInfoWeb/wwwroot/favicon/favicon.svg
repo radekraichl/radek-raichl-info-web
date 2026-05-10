@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-17.3926,-19.2834)">
+        <g id="Micro-logo" serif:id="Micro logo" transform="matrix(0.277778,0,0,0.277778,-300.979,-415.992)">
+            <g transform="matrix(4.30386,0,0,3.91287,834.571,1672.33)">
+                <ellipse cx="118.398" cy="23.681" rx="46.005" ry="50.602"/>
+            </g>
+            <g transform="matrix(1.1001,0,0,1.04205,-108.075,1381.16)">
+                <ellipse cx="1320.07" cy="368.343" rx="163.622" ry="172.736" style="fill:white;fill-opacity:0;"/>
+                <path d="M1320.07,195.606C1410.38,195.606 1483.69,273.007 1483.69,368.343C1483.69,463.678 1410.38,541.079 1320.07,541.079C1229.77,541.079 1156.45,463.678 1156.45,368.343C1156.45,273.007 1229.77,195.606 1320.07,195.606ZM1320.07,224.396C1395.33,224.396 1456.42,288.896 1456.42,368.343C1456.42,447.789 1395.33,512.289 1320.07,512.289C1244.82,512.289 1183.72,447.789 1183.72,368.343C1183.72,288.896 1244.82,224.396 1320.07,224.396Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.763082,0,0,0.763082,243.751,1407.92)">
+                <circle cx="1370.03" cy="395.675" r="42.459" style="fill:rgb(253,252,250);fill-opacity:0;stroke:white;stroke-width:30px;"/>
+            </g>
+            <g transform="matrix(0.763082,0,0,0.763082,365.807,1480.97)">
+                <circle cx="1370.03" cy="395.675" r="42.459" style="fill:rgb(253,252,250);fill-opacity:0;stroke:white;stroke-width:30px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,9.36684,1326.86)">
+                <path d="M1287.37,414.507L1330.23,550.23L1383.48,482.704" style="fill:none;stroke:white;stroke-width:30px;stroke-linejoin:miter;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,9.36684,1326.86)">
+                <path d="M1330.23,533.413L1330.23,604.886" style="fill:none;stroke:white;stroke-width:30px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

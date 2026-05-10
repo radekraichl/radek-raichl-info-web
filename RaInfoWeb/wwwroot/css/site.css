@@ -1,0 +1,139 @@
+:root {
+    --container-bg: #fdfdfd;
+    --text-color: #414141;
+    --accent-color: #336699;
+    --border-color: #e7e7e7;
+    --logo-size: 190px;
+    --hover-color: #CC5500;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --container-bg: #1e1e1e;
+        --text-color: #ffffff;
+        --accent-color: #ffefca;
+        --border-color: #3f3f3f;
+        --logo-size: 190px;
+    }
+}
+
+/* ---- HTML ---- */
+html {
+    color-scheme: light dark;
+}
+
+/* ---- Body ---- */
+body {
+    background-color: var(--container-bg);
+    color: var(--text-color);
+}
+
+/* ---- Links ---- */
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+    a:hover {
+        color: var(--text-color);
+    }
+
+    a:active {
+        outline: none;
+        background: transparent;
+        color: var(--accent-color)
+    }
+
+@media (hover: hover) and (pointer: fine) {
+    a:hover {
+        color: var(--accent-color)
+    }
+}
+
+/* ---- Logo ---- */
+.logo-container {
+    width: 100%;
+}
+
+    .logo-container img {
+        width: 160px;
+        object-fit: contain;
+    }
+
+@media (max-width: 768px) {
+    .logo-container img {
+        width: 140px;
+        object-fit: contain;
+    }
+}
+
+.logo-light {
+    display: block;
+}
+
+.logo-dark {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .logo-light {
+        display: none;
+    }
+
+    .logo-dark {
+        display: block;
+    }
+}
+
+/* ---- Name ---- */
+.name {
+    color: var(--accent-color);
+}
+
+/* ---- Navigation ---- */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul {
+        max-width: 700px;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        white-space: nowrap;
+    }
+
+    nav ul li {
+        font-size: 1.1rem;
+    }
+
+        nav ul li:after {
+            content: " ";
+            background-repeat: no-repeat;
+            background-position: 50% 60%;
+            background-image: url('/images/bull-light-mode.svg');
+        }
+
+@media (prefers-color-scheme: dark) {
+    nav ul li:after {
+        background-image: url('/images/bull-dark-mode.svg');
+    }
+}
+
+nav a {
+    padding: 0.4rem;
+}
+
+/* ---- Contacts ---- */
+.contact-item {
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+    .contact-item i {
+        font-size: 27px;
+    }

@@ -1,0 +1,40 @@
+﻿@font-face {
+    font-family: 'Bohemian Typewriter';
+    src: url('/fonts/BohemianTypewriter.ttf') format('truetype');
+}
+
+/* ---- Header ---- */
+.navbar {
+    color: var(--accent-color);
+    background-color: var(--container-bg);
+    border-bottom: 1px solid var(--border-color);
+    font-family: 'Bohemian Typewriter';
+}
+
+.navbar-brand {
+    color: var(--accent-color);
+}
+
+/* ---- Footer ---- */
+footer {
+    font-family: 'Bohemian Typewriter';
+    color: var(--accent-color);
+    margin-top: auto;
+    border-top: 1px solid var(--border-color);
+}
+
+    footer a {
+        text-decoration: none;
+        color: var(--accent-color);
+    }
+
+        footer a:hover {
+            color: var(--accent-color);
+        }
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 0.74rem;
+    }
+}
+

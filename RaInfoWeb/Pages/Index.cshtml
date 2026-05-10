@@ -1,0 +1,72 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="logo-container d-flex justify-content-center align-items-center mb-3">
+    <img src="~/images/logo-light-mode.svg" alt="logo light mode" class="logo-light">
+    <img src="~/images/logo-dark-mode.svg" alt="logo dark mode" class="logo-dark">
+</div>
+
+<h3 class="text-center name mb-3">Radek Raichl</h3>
+
+<nav class="mb-3">
+    <ul class="my-0">
+        <li><a href="#">Slaboproud</a></li>
+        <li><a href="#">Silnoproud</a></li>
+        <li><a href="#">Elektroinstalace</a></li>
+        <li><a href="#">Zabezpečovací systémy</a></li>
+        <li><a href="#">Kamerové systémy</a></li>
+        <li><a href="#">Požární signalizace</a></li>
+        <li><a href="#">Přístupové systémy</a></li>
+        <li><a href="#">Měření a regulace</a></li>
+        <li><a href="#">Fotovoltaika</a></li>
+        <li><a href="#">Počítačové sítě</a></li>
+        <li><a href="#">3D tisk</a></li>
+        <li><a href="#">Software</a></li>
+    </ul>
+</nav>
+
+<div class="row">
+    <!-- Kontakty -->
+    <div class="mb-3">
+        <div class="contact-item d-flex align-items-center">
+            <strong class="me-2">IČO</strong>
+            05697395
+        </div>
+
+        <div class="contact-item d-flex align-items-center">
+            <i class="mdi mdi-cellphone me-2"></i>
+            <a href="tel:+420774514545">+420 774 514 545</a>
+        </div>
+
+        <div class="contact-item d-flex align-items-center">
+            <i class="mdi mdi-map-marker-radius-outline me-2"></i>
+            <a href="https://mapy.cz/zakladni?source=search&q=Krupka" target="_blank" rel="noopener noreferrer">
+                Krupka
+            </a>
+        </div>
+
+        <div class="contact-item d-flex align-items-center">
+            <i class="mdi mdi-email-outline me-2"></i>
+            <a href="mailto:radekraichl@gmail.com">radekraichl@gmail.com</a>
+        </div>
+
+     @* <div class="contact-item d-flex align-items-center">
+            <i class="mdi mdi-github me-2"></i>
+            <a href="https://github.com/radekraichl" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+        </div> *@
+    </div>
+
+    <!-- Hodnocení -->
+    <div>
+        <p class="my-1">„Budu rád za vaše hodnocení“</p>
+        <ul>
+            <li><a href="https://rainfo.cz/hs" target="_blank" rel="noopener noreferrer">Firmy.cz</a></li>
+            <li><a href="https://rainfo.cz/hg" target="_blank" rel="noopener noreferrer">Google</a></li>
+        </ul>
+    </div>
+</div>
