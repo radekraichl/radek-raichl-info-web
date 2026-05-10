@@ -10,5 +10,5 @@ Zdrojové kódy mého osobního webu — [rainfo.cz](https://www.rainfo.cz)
 
 ## Licence
 
-Kód je dostupný pod licencí MIT (viz [LICENSE](LICENSE)).
+Kód je dostupný pod licencí MIT (viz [LICENSE](LICENSE)).  
 Obsah (texty, obrázky) © 2026 rainfo.cz, všechna práva vyhrazena.
